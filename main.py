@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: UTF-8 -*-
-"""程序入口文件"""
+"""Файл входа в программу"""
 
 import os
 from tkinter import Tk
@@ -11,7 +11,7 @@ from pages import win_login, win_splah
 # Load global variable management module
 glv.init_global_variable()
 glv.set_variable("APP_NAME", "Application")
-glv.set_variable("APP_PATH", os.path.dirname(__file__))  # 当前目录
+glv.set_variable("APP_PATH", os.path.dirname(__file__))  # Текущий каталог
 glv.set_variable("DATA_DIR", "data")
 
 
